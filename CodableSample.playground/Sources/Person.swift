@@ -14,5 +14,12 @@ public struct Person: Codable {
     var age: Int?
     var memberType: MemberType?
     var phoneNumber: String?
+    public var favoriteFood: FavoriteFood?
+    var gender: String?
     
+}
+
+public struct FavoriteFood: Codable {
+    public var name: String?
+    public var averagePrice: Int?
 }
